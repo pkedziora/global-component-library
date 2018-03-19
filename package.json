@@ -26,6 +26,7 @@
     "@justeat/f-toggle": "^0.11.2",
     "@justeat/f-validate": "^0.14.0",
     "@justeat/fozzie": "^0.33.0",
+    "handlebars-helper-i18n": "^0.1.0",
     "kickoff-grid.css": "^1.1.0",
     "lite-ready": "^1.0.4",
     "qwery": "^4.0.0",

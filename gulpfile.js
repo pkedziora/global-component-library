@@ -22,7 +22,7 @@ build(gulp, {
 
     js: {
         files: {
-            'docs': {
+            docs: {
                 srcPath: 'docs/index.js',
                 distFile: 'docs.js',
                 applyRevision: true
@@ -36,15 +36,15 @@ build(gulp, {
 
     copy: {
         js: {
-            'prism': {
-                path: `/libs/prism.min.js`,
+            prism: {
+                path: '/libs/prism.min.js',
                 dest: '/libs',
-                revision: false,
+                revision: false
             },
-            'modernizr': {
-                path: `/libs/modernizr.min.js`,
+            modernizr: {
+                path: '/libs/modernizr.min.js',
                 dest: '/libs',
-                revision: false,
+                revision: false
             }
         }
     },
